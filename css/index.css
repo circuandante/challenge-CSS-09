@@ -1,0 +1,21 @@
+.rail {
+  color: red;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  position: relative;
+}
+
+.rail {
+  position: absolute;
+  width: 17px;
+  height: initial;
+  top: initial;
+  right: initial;
+  bottom: initial;
+  left: initial;
+}

@@ -1,0 +1,12 @@
+@mixin basic($w: initial, $h: initial, $t: initial, $r: initial, $b: initial, $l: initial) {
+  width: $w;
+  height: $h;
+  top: $t;
+  right: $r;
+  bottom: $b; 
+  left: $l;
+}
+
+.rail{
+  color: red;
+}

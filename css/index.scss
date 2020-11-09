@@ -1,0 +1,18 @@
+@import 'mixins.scss';
+
+*{
+  margin: 0;
+}
+
+:root{
+
+}
+
+body{
+  position: relative;
+}
+
+.rail{
+  position: absolute;
+  @include basic(17px);
+}
